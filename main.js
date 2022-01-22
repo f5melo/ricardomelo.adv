@@ -95,7 +95,8 @@ function activateMenuAtCurrentSection() {
 
 /* when scroll */
 window.addEventListener('scroll', function () {
-  changeHeaderWhenScroll()
   backToTop()
+  changeHeaderWhenScroll()
+
   activateMenuAtCurrentSection()
 })
