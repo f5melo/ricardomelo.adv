@@ -53,6 +53,7 @@ const swiper = new Swiper('.swiper-container', {
 })
 
 /* ===== ScrollReavel: mostrar elementos quando der scroll na pagina */
+/*
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
@@ -68,6 +69,8 @@ scrollReveal.reveal(
 #contact .text, #contact .links`,
   { interval: 100 }
 )
+*/
+
 /** Menu ativo conforme a pagina */
 const sections = document.querySelectorAll('main section[id]')
 
